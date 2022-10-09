@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700;800&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    height: 100vh;
+    display: flex;
+}
+.leftside{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #3494E6;  
+    background: -webkit-linear-gradient(to right, #EC6EAD, #3494E6); 
+    background: linear-gradient(to right, #EC6EAD, #3494E6); 
+    color: #fff;  
+}
+.leftside h1{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 75px;
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+.leftside h2{
+    font-size: 40px;
+    font-weight: 200;
+    margin-bottom: 15px;
+}
+.leftside h4{
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.rightside{
+    width: 30%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+.rightside img{
+    height: 25px;
+    margin-top: 70px;
+}
+.container1{
+    height: 750px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: #EC6EAD; */
+}
+.container1 h1{
+    font-size: 23px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 20px;
+}
+.rightside form{
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+form input{
+    padding: 13px;
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+    margin-bottom: 15px;
+}
+form button{
+    padding: 10px;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    background-color: #39c;
+}
+span{
+    display: flex;
+    margin-top: 15px;
+}
+span h5{
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #39c;
+}
+span .for{
+    margin-left: 70px;
+}
+.create{
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #39c;
+    color: #39c;
+    background-color: transparent;
+    border-radius: 2px;
+}
+.rightside p{
+    margin-top: 13px;
+    text-align: center;
+    font-size: 14px;
+}
+.google{
+    margin-top: 10px;
+    background-color: transparent;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 2px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #39c;
+}
+hr{
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 13px;
+    height: 15px;
+    border: 1px solid gray;
+}
+@media(max-width:768px){
+
+    .leftside{
+        height: auto;
+        width: 50%;
+    }
+    .leftside h1{
+        font-family: 'Orbitron', sans-serif;
+        font-size: 40px;
+        font-weight: 400;
+        margin-bottom: 25px;
+    }
+    .leftside h2{
+        font-size: 25px;
+        font-weight: 200;
+        margin-bottom: 15px;
+    }
+    .leftside h4{
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .rightside{
+        height: auto;
+        width: 50%;
+    }
+    .rightside img{
+        height: 20px;
+        margin-top: 40px;
+    }
+    .container1 h1{
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .rightside form{
+        height: 150px;   
+    }
+    form input{
+        padding: 8px;
+        margin-bottom: 10px;
+    }
+    form button{
+        padding: 7px;
+    }
+    span h5{
+        margin-left: 10px;
+        font-size: 9px;
+    }
+    span .for{
+        margin-left: 50px;
+    }
+    .create{
+        margin-top: 15px;
+        padding: 7px;
+    }
+    .rightside p{
+        margin-top: 10px;
+        text-align: center;
+        font-size: 10px;
+    }
+    .google{
+        margin-top: 8px;
+        padding: 7px;
+    }
+    .footer{
+       margin-top: 0px;
+    }
+    hr{
+        margin-right: 5px;
+        margin-left: 5px;
+        margin-top: 12px;
+        height: 10px;
+    }
+}
+@media(max-width:450px){
+
+    .container{
+        height: auto;
+        display: flex;
+    }
+    .leftside{
+        display: none;
+    }
+    .rightside{
+        height: auto;
+        width: auto;
+    }
+    span .for{
+        margin-left: 110px;
+    }
+}
+
